@@ -9,20 +9,20 @@
 	#include <abstractions/gnome>
 	#include <abstractions/X>
 	#include <abstractions/audio>
-	
+
 	deny @{PROC}/** r,
-	
+
 	@{HOME}/ r,
 	@{HOME}/.config/** rwk,
 	@{HOME}/.xchat2/ r,
 	@{HOME}/.xchat2/** rwixk,
 	@{HOME}/.kde/share/config/gtkrc-2.0 r,
-		
+
 	/bin/grep rix,
 	/bin/uname rix,
 	/bin/mkdir rix,
 	/bin/rm rix,
-	
+
 	/dev/tty rwix,
 
 	/etc/passwd r,
@@ -32,9 +32,9 @@
 	/etc/nsswitch.conf r,
 	/etc/ld.so.cache r,
 	/etc/xdg/xfce4/helpers.rc r,
-	
+
 	/lib/i386-linux-gnu/**	mr,
-	
+
 	/usr/bin/xchat rix,
 	/usr/bin/xdg-open rix,
 	/usr/bin/dbus-send rix,
@@ -46,11 +46,11 @@
 	/usr/bin/basename rix,
 	/usr/bin/kde4-config rix,
 	/usr/bin/aplay rix,
-	
+
 	/usr/lib/i386-linux-gnu/** mrix,
 	/usr/lib/xchat/plugins/* mr,
 	/usr/lib/perl*/** mr,
-		
+
 	/usr/share/icons/** r,
 	/usr/share/enchant/* r,
 	/usr/share/myspell/dicts/ r,
