@@ -15,6 +15,6 @@ Standards-Version: 3.9.4
 Package: apparmor-profile-xchat
 Architecture: all
 Depends: ${misc:Depends}, apparmor
-Description: AppArmor profile for XChat IRC.
+Description: AppArmor profile for XChat IRC
  An AppArmor profile to confine XChat IRC. This profile
  is developed by the Whonix team. XChat IRC is developed by xchat.org.
