@@ -3,6 +3,8 @@
 An AppArmor profile to confine XChat IRC. This profile
 is developed by the Whonix team. XChat IRC is developed by xchat.org.
 
+For better security.
+
 (This package description has been [automatically](https://github.com/Whonix/whonix-developer-meta-files/blob/master/debug-steps/packaging-helper-script) extracted and mirrored from `debian/control`.)
 
 # Generic Readme #
