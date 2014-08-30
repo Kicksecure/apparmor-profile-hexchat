@@ -1,4 +1,4 @@
-# Last modified: Fri Apr  12 01:45:00 UTC 2014
+# Last modified: Sat Aug 30 19:17:19 UTC 2014
 #include <tunables/global>
 
 /usr/bin/xchat {
@@ -32,6 +32,7 @@
 	/etc/nsswitch.conf r,
 	/etc/ld.so.cache r,
 	/etc/xdg/xfce4/helpers.rc r,
+	/etc/python2.7/sitecustomize.py r,
 
 	/lib/i386-linux-gnu/**	mr,
 
@@ -51,6 +52,9 @@
 	/usr/lib/xchat/plugins/* mr,
 	/usr/lib/perl*/** mr,
 
+	/usr/local/lib/python2.7/dist-packages/ r,
+	/usr/local/lib/python2.7/dist-packages/* r,
+	
 	/usr/share/icons/** r,
 	/usr/share/enchant/* r,
 	/usr/share/myspell/dicts/ r,
@@ -63,6 +67,9 @@
 	/usr/share/poppler/cMap/ r,
 	/usr/share/poppler/cMap/** r,
 	/usr/share/perl*/** mr,
+	/usr/share/tcltk/tcl8.5/* r,
+	/usr/share/pyshared/* r,
+		
 
 	/var/lib/aspell/* r,
 }
