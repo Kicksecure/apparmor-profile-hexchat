@@ -1,3 +1,15 @@
+commit b4189b82fdcc16a69d2114f6e30d2a5bc37bd4dd
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Aug 24 16:28:35 2015 +0000
+
+    amd64 / Qubes / jessie specific fixes
+
+commit a07f6333afa9e0589e3fd8f82cf96a506a1ee2ae
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jun 3 14:59:33 2015 +0000
+
+    bumped changelog version
+
 commit fdef8bdf324474b77b3504e998ca5c89d175acb8
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 30 17:56:12 2015 +0000
