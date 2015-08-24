@@ -34,7 +34,7 @@
 	/etc/xdg/xfce4/helpers.rc r,
 	/etc/python2.7/sitecustomize.py r,
 
-	/lib/i386-linux-gnu/**	mr,
+	/lib/*-linux-gnu/** mr,
 
 	/usr/bin/xchat rix,
 	/usr/bin/xdg-open rix,
@@ -48,13 +48,13 @@
 	/usr/bin/kde4-config rix,
 	/usr/bin/aplay rix,
 
-	/usr/lib/i386-linux-gnu/** mrix,
+	/usr/lib/*-linux-gnu/** mrix,
 	/usr/lib/xchat/plugins/* mr,
 	/usr/lib/perl*/** mr,
 
 	/usr/local/lib/python2.7/dist-packages/ r,
 	/usr/local/lib/python2.7/dist-packages/* r,
-	
+
 	/usr/share/icons/** r,
 	/usr/share/enchant/* r,
 	/usr/share/myspell/dicts/ r,
@@ -69,7 +69,8 @@
 	/usr/share/perl*/** mr,
 	/usr/share/tcltk/tcl8.5/* r,
 	/usr/share/pyshared/* r,
-		
+	/usr/share/aspell/ r,
+	/usr/share/aspell/** r,
 
 	/var/lib/aspell/* r,
 }
