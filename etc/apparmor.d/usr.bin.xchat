@@ -17,6 +17,7 @@
 	@{HOME}/.xchat2/ r,
 	@{HOME}/.xchat2/** rwixk,
 	@{HOME}/.kde/share/config/gtkrc-2.0 r,
+	/home/user/.kde/share/config/oxygenrc r,
 
 	/bin/grep rix,
 	/bin/uname rix,
