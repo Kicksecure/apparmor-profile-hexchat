@@ -4,3 +4,7 @@
 /usr/bin/xchat {
 	#include <abstractions/xchat-based>
 }
+
+/usr/bin/hexchat {
+	#include <abstractions/xchat-based>
+}
