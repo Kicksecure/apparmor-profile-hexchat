@@ -1,7 +1,8 @@
 # AppArmor profile for XChat IRC #
 
-An AppArmor profile to confine XChat IRC. This profile
-is developed by the Whonix team. XChat IRC is developed by xchat.org.
+An AppArmor profile to confine XChat / HexChat IRC. This profile
+is developed by the Whonix team. XChat / HexChat IRC is developed by xchat.org
+/ hexchat.github.io.
 
 For better security.
 
