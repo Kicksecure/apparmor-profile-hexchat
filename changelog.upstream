@@ -1,3 +1,41 @@
+commit 8e4bfba23c077f3f6df194b860a45e6fc15414c0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 4 13:14:51 2016 +0000
+
+    updated debian/control / README.md to reflect HexChat support
+    
+    https://phabricator.whonix.org/T40
+
+commit d5917bfabfa1d6ba9986fc9f4032cced4f9aa19b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 4 13:10:34 2016 +0000
+
+    created hexchat profile which is a copy/includes abstractions/xchat-based
+    
+    https://phabricator.whonix.org/T40
+
+commit 253d79bc0d112b2b9133041a69b5598fc39aae94
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 4 13:07:34 2016 +0000
+
+    moved profile contents to etc/apparmor.d/abstractions/xchat-based
+    
+    https://phabricator.whonix.org/T40
+
+commit def9ad7f435fca4eb58ae228524b3f9957f436f4
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 4 13:03:37 2016 +0000
+
+    allow read/write to hexchat config folder
+    
+    https://phabricator.whonix.org/T40
+
+commit 725999aca2ba94c2cb433bfabd28769bc090d921
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Aug 26 23:31:57 2015 +0000
+
+    bumped changelog version
+
 commit 1b3019b6777d6d14281486ccded8c6d1c3eb24f8
 Merge: ca5ea74 cb4a188
 Author: Patrick Schleizer <adrelanos@riseup.net>
