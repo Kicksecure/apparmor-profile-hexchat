@@ -60,7 +60,7 @@
 	/usr/share/myspell/dicts/ r,
 	/usr/share/hunspell/ r,
 	/usr/share/hunspell/* r,
-	/usr/share/ca-certificates/spi-inc.org/spi-cacert-2008.crt r,
+	/usr/share/ca-certificates/** r,
 	/usr/share/xfce4/helpers/* r,
 	/usr/share/zenity/* r,
 	/usr/share/fontconfig/conf.avail/* r,
