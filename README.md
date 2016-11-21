@@ -1,4 +1,4 @@
-# AppArmor profile for XChat IRC #
+# AppArmor profile for XChat / HexChat IRC #
 
 An AppArmor profile to confine XChat / HexChat IRC. This profile
 is developed by the Whonix team. XChat / HexChat IRC is developed by xchat.org
@@ -53,7 +53,7 @@ gpg --export 916B8D99C38EAF5E8ADC7A2A8D66066A2EEACCDA | sudo apt-key add -
 3\. Add Whonix's APT repository.
 
 ```
-echo "deb http://sourceforge.net/projects/whonixdevelopermetafiles/files/internal/ wheezy main" > /etc/apt/sources.list.d/whonix.list
+echo "deb http://deb.whonix.org jessie main" > /etc/apt/sources.list.d/whonix.list
 ```
 
 4\. Update your package lists.
