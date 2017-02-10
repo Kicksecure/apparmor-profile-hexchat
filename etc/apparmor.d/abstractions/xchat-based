@@ -32,7 +32,7 @@
 	/etc/nsswitch.conf r,
 	/etc/ld.so.cache r,
 	/etc/xdg/xfce4/helpers.rc r,
-	/etc/python2.7/sitecustomize.py r,
+	/etc/python*/sitecustomize.py r,
 
 	/lib/*-linux-gnu/** mr,
 
@@ -52,8 +52,8 @@
 	/usr/lib/xchat/plugins/* mr,
 	/usr/lib/perl*/** mr,
 
-	/usr/local/lib/python2.7/dist-packages/ r,
-	/usr/local/lib/python2.7/dist-packages/* r,
+	/usr/local/lib/python*/dist-packages/ r,
+	/usr/local/lib/python*/dist-packages/* r,
 
 	/usr/share/icons/** r,
 	/usr/share/enchant/* r,
