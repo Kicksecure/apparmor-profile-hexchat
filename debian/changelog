@@ -1,3 +1,9 @@
+apparmor-profile-xchat (3:1.9-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 17 Feb 2017 13:48:53 +0000
+
 apparmor-profile-xchat (3:1.8-1) unstable; urgency=medium
 
   * New upstream version (local package).

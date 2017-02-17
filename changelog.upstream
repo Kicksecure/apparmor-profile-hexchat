@@ -1,3 +1,29 @@
+commit b6818af63e5e28e5f65abf2d964d83e1932844be
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 10 15:47:50 2017 +0000
+
+    remove faketime from Build-Depends:
+    
+    since no longer used for reproducible builds
+
+commit 7da89572cc957f1eec7524be00f404035cd12a1a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 10 15:35:21 2017 +0000
+
+    remove debian/gain-root-command workaround
+
+commit b07ee613b4d6937413f939fc9d0ec45597094483
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 10 15:03:47 2017 +0000
+
+    apparmor profile python3 support
+
+commit 279320646e49f9c042637458bc9fed41be9bda6c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jan 15 15:23:15 2017 +0000
+
+    bumped changelog version
+
 commit 141149733a423acdfc51df29381c822f6c2cc1a6
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Jan 15 08:35:29 2017 +0100
