@@ -1,7 +1,7 @@
 # Last modified: Sat Aug 30 19:17:19 UTC 2014
 #include <tunables/global>
 
-/usr/bin/xchat {
+/usr/bin/xchat flags=(attach_disconnected) {
 	#include <abstractions/xchat-based>
 }
 
