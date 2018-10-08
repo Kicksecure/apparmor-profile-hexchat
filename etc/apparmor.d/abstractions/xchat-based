@@ -28,6 +28,8 @@
 	/etc/passwd r,
 	/etc/group r,
 	/etc/host.conf r,
+	/etc/hosts r,
+	/etc/resolv.conf r,
 	/etc/gai.conf r,
 	/etc/nsswitch.conf r,
 	/etc/ld.so.cache r,
