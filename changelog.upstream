@@ -1,3 +1,16 @@
+commit 991c4480dfcf7b78ccc0fe8289dc0243815f6217
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 8 12:50:16 2018 +0000
+
+            /etc/hosts r,
+            /etc/resolv.conf r,
+
+commit 512d043907543d0a27b2183eaff1a588ba0831e0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Aug 27 15:57:40 2018 +0000
+
+    bumped changelog version
+
 commit 5b2e21fd835a7619522657800c9943e4162f1c28
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Aug 21 05:17:56 2018 +0800
