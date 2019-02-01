@@ -17,6 +17,7 @@
 	@{HOME}/.config/hexchat/** rwixk,
 	@{HOME}/.kde/share/config/gtkrc-2.0 r,
 	@{HOME}/.kde/share/config/oxygenrc r,
+	@{HOME}/.*/lib/python*/** r,
 
 	/bin/grep rix,
 	/bin/uname rix,
@@ -24,6 +25,7 @@
 	/bin/rm rix,
 
 	/dev/tty rwix,
+	/dev/null rw,
 
 	/etc/passwd r,
 	/etc/group r,
@@ -33,7 +35,10 @@
 	/etc/gai.conf r,
 	/etc/nsswitch.conf r,
 	/etc/ld.so.cache r,
+	/etc/machine-id r,
+	/etc/os-release r,
 	/etc/xdg/xfce4/helpers.rc r,
+	/etc/xfce4/defaults.list r,
 	/etc/python*/sitecustomize.py r,
 
 	/lib/*-linux-gnu/** mr,
@@ -53,6 +58,9 @@
 	/usr/lib/*-linux-gnu/** mrix,
 	/usr/lib/xchat/plugins/* mr,
 	/usr/lib/perl*/** mr,
+	/var/lib/snapd/desktop/applications/ r,
+	/usr/lib/firefox-esr/firefox* Ux,
+	/usr/lib/python*/lib-dynload/*.so mr,
 
 	/usr/local/lib/python*/dist-packages/ r,
 	/usr/local/lib/python*/dist-packages/* r,
@@ -64,8 +72,10 @@
 	/usr/share/hunspell/* r,
 	/usr/share/ca-certificates/** r,
 	/usr/share/xfce4/helpers/* r,
+	/usr/share/xfce4/applications/ r,
+	/usr/share/xfce4/applications/mimeinfo.cache r,
 	/usr/share/zenity/* r,
-	/usr/share/fontconfig/conf.avail/* r,
+	/usr/share/fontconfig/** r,
 	/usr/share/poppler/cMap/ r,
 	/usr/share/poppler/cMap/** r,
 	/usr/share/perl*/** mr,
@@ -75,3 +85,5 @@
 	/usr/share/aspell/** r,
 
 	/var/lib/aspell/* r,
+	
+	/run/*/resolv.conf r,
