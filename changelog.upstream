@@ -1,9 +1,31 @@
+commit b62bb60725631b9b22de87464a30e02703212175
+Merge: f196866 209156d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 8 04:05:27 2019 -0500
+
+    Merge pull request #2 from LorenzoAncora/patch-1
+    
+    Add missing perms (Py 3, XFCE4, browser, os, ...)
+
+commit 209156d75d3482533b0b6f0f00872a9bb3704126
+Author: Lorenzo Ancora <admin@lorenzoancora.info>
+Date:   Fri Feb 1 16:41:09 2019 +0100
+
+    Add missing perms (Py 3, XFCE4, browser, os, ...)
+
+    - OS: implicit ALLOW directives to accept read-only access to informative system files like os-release and machine-id;
+    - Fonts: extended pattern matching;
+    - NetworkManager and similar: implicit ALLOW directives to accept read-only access to DNS parameters;
+    - XFCE4, snapd: implicit ALLOW directives to accept read-only access to the application list and to the MIME cache;
+    - Firefox ESR: implicit ALLOW directives to allow direct execution (another AA profile for Firefox already exists) from the About dialog;
+    - Python 3 plugin: implicit ALLOW directives to allow the enumeration of available modules.
+
 commit 991c4480dfcf7b78ccc0fe8289dc0243815f6217
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Oct 8 12:50:16 2018 +0000
 
-            /etc/hosts r,
-            /etc/resolv.conf r,
+    /etc/hosts r,
+    /etc/resolv.conf r,
 
 commit 512d043907543d0a27b2183eaff1a588ba0831e0
 Author: Patrick Schleizer <adrelanos@riseup.net>
