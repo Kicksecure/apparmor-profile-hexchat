@@ -24,6 +24,11 @@
 	/bin/mkdir rix,
 	/bin/rm rix,
 
+	/usr/bin/grep rix,
+	/usr/bin/uname rix,
+	/usr/bin/mkdir rix,
+	/usr/bin/rm rix,
+
 	/dev/tty rwix,
 	/dev/null rw,
 
@@ -85,5 +90,5 @@
 	/usr/share/aspell/** r,
 
 	/var/lib/aspell/* r,
-	
+
 	/run/*/resolv.conf r,
