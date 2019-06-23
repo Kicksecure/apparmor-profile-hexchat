@@ -1,3 +1,57 @@
+commit 2e32b3a3d1ce9cdd8d7d9849f526e2a5b1e627cb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 23 17:05:12 2019 +0000
+
+    refactoring
+
+commit 10f776acdcd8225e571a17e6282f9869badaa6f1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 23 17:03:33 2019 +0000
+
+    copyright
+
+commit 8c25ae76720aeb7d3f9d491c6b0a34a4775f21ca
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 23 16:59:19 2019 +0000
+
+    fix maintainer script to create local files for both profiles
+
+commit a419fad25705740e0fcf9c0ae190164ae8b3feb0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 23 16:58:03 2019 +0000
+
+    syntax fix
+
+commit 546d74721dcb079f65e12c9bbfbe3222dd82ce40
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 23 16:52:50 2019 +0000
+
+    include local profile
+
+commit e7d7a50bf131cd09257e9a956c29d424155a978a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 23 16:52:02 2019 +0000
+
+    /usr/bin/hexchat flags=(attach_disconnected)
+
+commit eeedcfd33488c6c64de8b9a1ad9112afa9a350ea
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 23 16:51:29 2019 +0000
+
+    split profiles
+
+commit 7728c34c1e7cd5cbc74892f3a3c3ff3465057971
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 23 16:50:08 2019 +0000
+
+    refactoring
+
+commit 28c66b1e676847f5589b891f1228a2a5dc0ec916
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jun 20 12:23:26 2019 +0000
+
+    bumped changelog version
+
 commit 34103612962c6607629fcf2bf1cf81a00853486c
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Jun 20 07:48:15 2019 -0400
