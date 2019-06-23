@@ -2,4 +2,5 @@
 
 /usr/bin/hexchat flags=(attach_disconnected) {
    #include <abstractions/xchat-based
+   #include <local/usr.bin.hexchat>
 }
