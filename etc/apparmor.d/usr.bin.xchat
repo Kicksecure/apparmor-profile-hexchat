@@ -3,7 +3,3 @@
 /usr/bin/xchat flags=(attach_disconnected) {
    #include <abstractions/xchat-based>
 }
-
-/usr/bin/hexchat {
-   #include <abstractions/xchat-based
-}
