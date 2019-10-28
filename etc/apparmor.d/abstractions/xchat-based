@@ -68,7 +68,10 @@
    /usr/lib/xchat/plugins/* mr,
    /usr/lib/perl*/** mr,
    /var/lib/snapd/desktop/applications/ r,
-   /usr/lib/firefox-esr/firefox* Ux,
+   
+   ## The Ux permission is too dangerous to be enabled by default.
+   #/usr/lib/firefox-esr/firefox* Ux,
+   
    /usr/lib/python*/lib-dynload/*.so mr,
 
    /usr/local/lib/python*/dist-packages/ r,
