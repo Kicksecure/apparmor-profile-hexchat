@@ -1,3 +1,31 @@
+commit bb418b1c39e5374c94663199632542118d1f74b9
+Merge: f6a8439 a3bb65c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 28 05:11:45 2019 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit a3bb65c18620669ba15f546d6bccb31aa9c119cf
+Merge: f6a8439 da738da
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 28 09:10:59 2019 +0000
+
+    Merge pull request #4 from madaidan/apparmor
+    
+    Comment out Ux permission
+
+commit da738da590d247a9991689a9c57162efbecf5172
+Author: madaidan <50278627+madaidan@users.noreply.github.com>
+Date:   Sun Oct 27 19:39:44 2019 +0000
+
+    Comment out Ux permission
+
+commit f6a8439ed44e8d9ce9057fd23b00ed53a0dcd106
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Sep 17 13:42:42 2019 +0000
+
+    bumped changelog version
+
 commit d340cb76ec2a6b2ef04754b140007825df003541
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Sep 17 07:24:23 2019 +0000
