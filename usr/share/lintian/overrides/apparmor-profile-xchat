@@ -2,4 +2,4 @@
 ## See the file COPYING for copying conditions.
 
 ## False positive. This apparmor profile has nothing to do with sensible-utils.
-apparmor-profile-xchat: missing-depends-on-sensible-utils etc/apparmor.d/abstractions/xchat-based
+apparmor-profile-hexchat: missing-depends-on-sensible-utils etc/apparmor.d/abstractions/xchat-based

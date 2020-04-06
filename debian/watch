@@ -2,5 +2,5 @@
 ## See the file COPYING for copying conditions.
 
 version=4
-opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/apparmor-profile-xchat-$1\.tar\.gz/ \
-  https://github.com/Whonix/apparmor-profile-xchat/tags .*/v?(\d\S+)\.tar\.gz
+opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/apparmor-profile-hexchat-$1\.tar\.gz/ \
+  https://github.com/Whonix/apparmor-profile-hexchat/tags .*/v?(\d\S+)\.tar\.gz

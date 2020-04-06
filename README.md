@@ -5,7 +5,7 @@ is developed by the Whonix team. XChat / HexChat IRC is developed by xchat.org
 / hexchat.github.io.
 
 For better security.
-## How to install `apparmor-profile-xchat` using apt-get ##
+## How to install `apparmor-profile-hexchat` using apt-get ##
 
 1\. Download [Whonix's Signing Key]().
 
@@ -33,10 +33,10 @@ echo "deb https://deb.whonix.org buster main contrib non-free" | sudo tee /etc/a
 sudo apt-get update
 ```
 
-5\. Install `apparmor-profile-xchat`.
+5\. Install `apparmor-profile-hexchat`.
 
 ```
-sudo apt-get install apparmor-profile-xchat
+sudo apt-get install apparmor-profile-hexchat
 ```
 
 ## How to Build deb Package from Source Code ##
@@ -47,7 +47,7 @@ Can be build using standard Debian package build tools such as:
 dpkg-buildpackage -b
 ```
 
-See [instructions](https://www.whonix.org/wiki/Dev/Build_Documentation/apparmor-profile-xchat). (Replace `package-name` with the actual name of this package.)
+See [instructions](https://www.whonix.org/wiki/Dev/Build_Documentation/apparmor-profile-hexchat). (Replace `package-name` with the actual name of this package.)
 
 ## Contact ##
 
@@ -56,4 +56,4 @@ See [instructions](https://www.whonix.org/wiki/Dev/Build_Documentation/apparmor-
 
 ## Donate ##
 
-`apparmor-profile-xchat` requires [donations](https://www.whonix.org/wiki/Donate) to stay alive!
+`apparmor-profile-hexchat` requires [donations](https://www.whonix.org/wiki/Donate) to stay alive!
