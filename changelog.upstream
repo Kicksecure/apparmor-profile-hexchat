@@ -1,3 +1,40 @@
+commit 8c7ac932b23ada3a85548a84740edbe21db31826
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 6 14:10:48 2020 -0400
+
+    readme
+
+commit 9040e58a7d9a7fd71363d70c0c330c33ea452e30
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 6 14:08:20 2020 -0400
+
+    renamed:    usr/share/lintian/overrides/apparmor-profile-xchat -> usr/share/lintian/overrides/apparmor-profile-hexchat
+
+commit c1eace7965da3b0a2b70289f006b67cd8792b188
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 6 14:06:27 2020 -0400
+
+    renamed:    debian/apparmor-profile-xchat.install -> debian/apparmor-profile-hexchat.install
+
+commit 90a9595d3120f8aa0eef8957100da1b5d00a90b4
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 6 14:05:42 2020 -0400
+
+    Replaces: apparmor-profile-hexchat;
+    description
+
+commit 088508a84a4035962ee64244822d399bb41ab9c6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 6 14:04:43 2020 -0400
+
+    rename package
+
+commit 382753bf9c5740aec13ab9ec2b64f2a2ff2f3c30
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 2 07:38:00 2020 -0400
+
+    bumped changelog version
+
 commit da050d5b1f2f1406176b77a4ac90459838950130
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 2 07:22:22 2020 -0400
