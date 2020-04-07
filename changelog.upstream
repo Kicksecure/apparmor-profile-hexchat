@@ -1,3 +1,15 @@
+commit af02ff4fc6ee8d73799f79193a83abc670104f31
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 7 11:14:17 2020 +0000
+
+    fix, Replaces: apparmor-profile-xchat
+
+commit 6d366f11365faa369ce9aafde684e5522be2c64d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 6 14:12:19 2020 -0400
+
+    bumped changelog version
+
 commit 8c7ac932b23ada3a85548a84740edbe21db31826
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Apr 6 14:10:48 2020 -0400

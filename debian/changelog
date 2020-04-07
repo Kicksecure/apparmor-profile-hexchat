@@ -1,3 +1,9 @@
+apparmor-profile-hexchat (3:3.8-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Tue, 07 Apr 2020 11:15:23 +0000
+
 apparmor-profile-hexchat (3:3.7-1) unstable; urgency=medium
 
   * New upstream version (local package).
