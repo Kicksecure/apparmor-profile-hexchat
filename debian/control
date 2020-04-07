@@ -14,7 +14,7 @@ Standards-Version: 4.3.0
 Package: apparmor-profile-hexchat
 Architecture: all
 Depends: ${misc:Depends}, apparmor
-Replaces: apparmor-profile-hexchat
+Replaces: apparmor-profile-xchat
 Description: AppArmor profile for HexChat IRC
  An AppArmor profile to confine HexChat IRC. This profile
  is developed by the Whonix team. HexChat IRC is developed by xchat.org
