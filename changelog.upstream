@@ -1,3 +1,31 @@
+commit f8fbc107ce286c372583e2072473a4f997b6c15f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Dec 21 10:25:24 2021 -0500
+
+    cleanup
+
+commit d2a9d37b0e387144ed8e73a16c4a0c4037d1f984
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Dec 21 10:22:48 2021 -0500
+
+    harden profile
+    
+    and remove xchat support
+    
+    https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=951331#23
+
+commit 731d7733e9fd7b700f86e8b2b0060af02a7b8738
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Nov 9 14:32:28 2021 -0500
+
+    readme
+
+commit 42a1f69309117aa3c3af0d604d64840fb3c3642d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Sep 11 18:35:35 2021 -0400
+
+    bumped changelog version
+
 commit cbcd711ae0acc01d344017992dc6c573ffc9ffb2
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Sep 11 16:31:09 2021 -0400
