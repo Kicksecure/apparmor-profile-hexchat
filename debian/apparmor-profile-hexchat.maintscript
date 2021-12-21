@@ -1,0 +1,2 @@
+rm_conffile /etc/apparmor.d/abstractions/xchat-based
+rm_conffile /etc/apparmor.d/usr.bin.xchat
