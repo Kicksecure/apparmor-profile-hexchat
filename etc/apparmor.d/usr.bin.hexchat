@@ -1,10 +1,27 @@
+# Last Modified: Tue Dec 21 15:09:27 2021
+#include <tunables/global>
+
 ## Copyright (C) 2014 troubadour <trobador@riseup.net>
 ## Copyright (C) 2014 - 2021 ENCRYPTED SUPPORT LP <adrelanos@whonix.org>
 ## See the file COPYING for copying conditions.
 
-#include <tunables/global>
 
 /usr/bin/hexchat flags=(attach_disconnected) {
-   #include <abstractions/xchat-based>
-   #include <local/usr.bin.hexchat>
+  #include <abstractions/enchant>
+  #include <abstractions/openssl>
+  #include <abstractions/base>
+  #include <abstractions/bash>
+  #include <abstractions/fonts>
+  #include <abstractions/kde>
+  #include <abstractions/gnome>
+  #include <abstractions/X>
+  #include <abstractions/audio>
+  #include <abstractions/nameservice>
+  #include <local/usr.bin.hexchat>
+
+  deny @{PROC}/** r,
+
+  @{HOME}/.config/ r,
+  @{HOME}/.config/hexchat/ r,
+  @{HOME}/.config/hexchat/** rw,
 }
