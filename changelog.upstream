@@ -1,3 +1,15 @@
+commit abfa758d5ff3852771250eac149a9f8af84ec50d
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Tue Aug 5 22:57:56 2025 -0500
+
+    Port to Trixie.
+
+commit e758b6ae5dda4ef90de98e742d4838db67a1b108
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Jan 23 16:16:06 2025 +0000
+
+    bumped changelog version
+
 commit 40203dc02ee01c2b3d240dfd1534f8e6b15b7130
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Jan 23 11:09:04 2025 -0500
