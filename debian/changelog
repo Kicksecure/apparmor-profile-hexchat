@@ -1,3 +1,9 @@
+apparmor-profile-hexchat (3:5.5-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@whonix.org>  Tue, 02 Sep 2025 15:09:21 +0000
+
 apparmor-profile-hexchat (3:5.4-1) unstable; urgency=medium
 
   * New upstream version (local package).
