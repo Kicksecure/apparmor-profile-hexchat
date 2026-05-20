@@ -1,3 +1,9 @@
+commit 3802bb42da2e08c7f500ecf0704839b0f0aa04a1
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Mar 28 09:39:04 2026 +0000
+
+    bumped changelog version
+
 commit 3c1d1f9df9a4a999edc07ef58ab498365c08eb1e
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Mar 28 05:29:58 2026 -0400
@@ -63,7 +69,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Nov 11 13:41:32 2023 -0500
 
     change license to AGPL-3+
-    
+
     https://forums.whonix.org/t/license-change-to-agplv3/17455
 
 commit f09bf68b5be333f9d1d2b6219fd207f7c18442c4
@@ -185,9 +191,9 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Dec 21 10:22:48 2021 -0500
 
     harden profile
-    
+
     and remove xchat support
-    
+
     https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=951331#23
 
 commit 731d7733e9fd7b700f86e8b2b0060af02a7b8738
@@ -366,7 +372,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Oct 28 09:10:59 2019 +0000
 
     Merge pull request #4 from madaidan/apparmor
-    
+
     Comment out Ux permission
 
 commit da738da590d247a9991689a9c57162efbecf5172
@@ -555,18 +561,18 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Mar 1 14:31:50 2019 +0000
 
     add improved legal protections clauses
-    
+
     The license for software created by Whonix is the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version with additional terms applicable per GNU GPL version 3 section 7.
-    
+
     The additional terms are based on the Doom 3 license which is Debian refers to as `GPL-3+-with-id-software-additional-terms`, which is Debian DFSG [1] (The Debian Free Software Guidelines) approved and which is therefore suitable for Debian `main`. Whonix made applied minimal changes to it:
-    
+
     * Rewrite `The Doom 3 BFG Edition GPL Source Code` to the more common `this program` which is used throughout the GPL.
     * Added a "trump clause" [2], in other words, any conflicts or disputes between the additional terms and the GPLv3 shall be resolved in favor of the GPLv3 by adding `Notwithstanding any other provision of this License` (as mentioned in GPL FAQ [3]) at the beginning of the additional terms.
-    
+
     [1] https://www.debian.org/social_contract#guidelines
     [2] https://www.fsf.org/news/canonical-updated-licensing-terms
     [3] https://www.gnu.org/licenses/gpl-faq.html#v3Notwithstanding
-    
+
     For more considerations, see also:
     https://www.whonix.org/wiki/Dev/Licensing
 
@@ -576,7 +582,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Feb 8 08:22:07 2019 -0500
 
     Merge pull request #3 from LorenzoAncora/patch-1
-    
+
     Update changelog.upstream
 
 commit d81d51d97891d69937a2c7f63eb83177a5b63150
@@ -584,7 +590,7 @@ Author: Lorenzo Ancora <34890309+LorenzoAncora@users.noreply.github.com>
 Date:   Fri Feb 8 12:33:40 2019 +0100
 
     Update changelog.upstream
-    
+
     + latest changes;
     - anomalous indentation.
 
@@ -594,7 +600,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Feb 8 04:05:27 2019 -0500
 
     Merge pull request #2 from LorenzoAncora/patch-1
-    
+
     Add missing perms (Py 3, XFCE4, browser, os, ...)
 
 commit 209156d75d3482533b0b6f0f00872a9bb3704126
@@ -602,7 +608,7 @@ Author: Lorenzo Ancora <34890309+LorenzoAncora@users.noreply.github.com>
 Date:   Fri Feb 1 16:41:09 2019 +0100
 
     Add missing perms (Py 3, XFCE4, browser, os, ...)
-    
+
     - OS: implicit ALLOW directives to accept read-only access to informative system files like os-release and machine-id;
     - Fonts: extended pattern matching;
     - NetworkManager and similar: implicit ALLOW directives to accept read-only access to DNS parameters;
@@ -690,7 +696,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Nov 30 22:19:08 2017 +0100
 
     Merge pull request #1 from Algernon-01/master
-    
+
     Patches for Whonix live
 
 commit ee529c18be8797b1dee370aa432292a9963578f1
@@ -710,7 +716,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Feb 10 15:47:50 2017 +0000
 
     remove faketime from Build-Depends:
-    
+
     since no longer used for reproducible builds
 
 commit 7da89572cc957f1eec7524be00f404035cd12a1a
@@ -772,7 +778,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Jan 4 13:14:51 2016 +0000
 
     updated debian/control / README.md to reflect HexChat support
-    
+
     https://phabricator.whonix.org/T40
 
 commit d5917bfabfa1d6ba9986fc9f4032cced4f9aa19b
@@ -780,7 +786,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Jan 4 13:10:34 2016 +0000
 
     created hexchat profile which is a copy/includes abstractions/xchat-based
-    
+
     https://phabricator.whonix.org/T40
 
 commit 253d79bc0d112b2b9133041a69b5598fc39aae94
@@ -788,7 +794,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Jan 4 13:07:34 2016 +0000
 
     moved profile contents to etc/apparmor.d/abstractions/xchat-based
-    
+
     https://phabricator.whonix.org/T40
 
 commit def9ad7f435fca4eb58ae228524b3f9957f436f4
@@ -796,7 +802,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Jan 4 13:03:37 2016 +0000
 
     allow read/write to hexchat config folder
-    
+
     https://phabricator.whonix.org/T40
 
 commit 725999aca2ba94c2cb433bfabd28769bc090d921
